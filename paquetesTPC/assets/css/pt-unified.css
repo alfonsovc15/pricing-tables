@@ -1,0 +1,118 @@
+.pt-unified {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	margin: 40px 0;
+}
+
+.pt-unified .pt-name, .pt-unified .pt-price, .pt-unified .pt-tag {
+	text-align: center;
+	font-weight: 100;
+}
+
+.pt-unified .pt-name {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.pt-unified .pt-price {
+	text-transform: uppercase;
+	font-weight: bold;
+	opacity: 0.8;
+	color: #777;
+	background: #ddd;
+	margin: auto;
+	display: table;
+	padding: 30px;
+	border-radius: 90px;
+}
+
+.pt-unified .pt-price b {
+	color: #222;
+	font-size: 70px;
+	font-weight: 100;
+}
+
+.pt-unified .pt-price i {
+	vertical-align: top;
+	margin-top: 13px;
+	display: inline-block;
+}
+
+.pt-unified .pt-tag {
+	border: 1px solid #aaa;
+	background-color: #fff;
+	border-radius: 15px;
+	padding: 5px 15px;
+	margin: -35px auto 0;
+	display: table;
+	font-size: 12px;
+}
+
+.pt-unified hr {
+	margin-top: 25px;
+	border-top: 1px solid #ccc;
+}
+
+.pt-unified ul {
+	padding: 20px 0 0;
+}
+
+.pt-unified ul li {
+	padding: 8px 0;
+	list-style-type: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+.pt-unified .pt-btn {
+	border-radius: 3px;
+	border: 3px solid #aaa;
+	min-width: 70%;
+	display: table;
+	margin: 40px auto;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+@media only screen and (min-width: 992px) {
+	.row-unified > div:first-child {
+		padding-left: 30px;
+		padding-right: 0;
+	}
+
+	.row-unified > div:first-child > .pt-unified {
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		margin-right: -1px;
+	}
+
+	.row-unified > div:nth-child(2) {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.row-unified > div:nth-child(2) > .pt-unified {
+		margin: 10px 0;
+		padding: 10px;
+		border-radius: 10px;
+	}
+
+	.row-unified > div:nth-child(2) > .pt-unified .pt-price {
+		margin: 20px auto;
+	}
+
+	.row-unified > div:last-child {
+		padding-left: 0;
+		padding-right: 30px;
+	}
+
+	.row-unified > div:last-child > .pt-unified {
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		margin-left: -1px;
+	}
+}
